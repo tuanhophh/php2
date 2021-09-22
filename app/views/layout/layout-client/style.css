@@ -1,0 +1,298 @@
+
+
+    
+    #content {
+        width:100%;
+        height: 500px;
+        background-color: white;
+        text-align: center;
+        
+        
+        box-shadow: lightgray;
+        text-align: center;
+    }
+    
+    #myimage {
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+    
+    .pre {
+        float: left;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: gainsboro;
+        border: none;
+        font-size: 18px;
+        outline: none;
+    }
+    
+    .next {
+        float: right;
+        text-align: center;
+        
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: gainsboro;
+        border: none;
+        font-size: 18px;
+        outline: none;
+    }
+    
+    .chuanh {
+        font-size: 26px;
+    }
+    .gach0::before{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -200%;
+        margin:0 auto ;
+        transform: translateY(-50%);
+    }
+    .gach0::after{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 120%;
+        margin:0 auto ;
+        transform: translateY(50%);
+    }
+    .gach::before{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -100%;
+        margin:0 auto ;
+        transform: translateY(-50%);
+    }
+    .gach::after{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 120%;
+        margin:0 auto ;
+        transform: translateY(50%);
+    }
+    .gach2::before{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -90%;
+        margin:0 auto ;
+        transform: translateY(-50%);
+    }
+    .gach2::after{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 120%;
+        margin:0 auto ;
+        transform: translateY(50%);
+    }
+    .gach3::before{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -60%;
+        margin:0 auto ;
+        transform: translateY(-50%);
+    }
+    .gach3::after{
+        height: 3px;
+        width: 100px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 110%;
+        margin:0 auto ;
+        transform: translateY(50%);
+    }
+    .gach4::before{
+        height: 3px;
+        width: 60px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -45%;
+        margin:0 auto ;
+        transform: translateY(-50%);
+    }
+    .gach4::after{
+        height: 3px;
+        width: 60px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 110%;
+        margin:0 auto ;
+        transform: translateY(50%);
+    }
+    .quick-hover{
+        opacity: 0;
+        position: absolute;
+        top:0;
+        left:0;
+        bottom: 0;
+        right: 0;
+        transform: translateY(-50px);
+    }
+    .button-hover-eye{
+        opacity: 0;
+        position: absolute;
+        top:0;
+        left:0;
+        bottom: 0;
+        right: 0;
+        transform: translateY(-50px);
+    }
+    .product:hover .quick-hover{
+        opacity: 1;
+        transform: translateY(0);
+        transition: 0.5s;
+    }
+    .button-hover:hover .button-hover-eye{
+        opacity: 1;
+        transform: translateY(0);
+        transition:0.5s;
+        background: black;
+        color: white;
+        padding-top: 7px;
+        
+        
+    }
+    /* .product:hover{
+        background: #80808054;
+        
+    } */
+    
+    .product:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        
+    }
+    .button-hover::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+    }
+    .product:hover::before{
+        /* background-image: url("https://cdn.shopify.com/s/files/1/0332/6420/5963/products/p24-12_360x.jpg?v=1581557817"); */
+        transform: scale(1.1);
+        transition: 3s;
+        /* animation: scaleHover 1s; */
+    }
+    
+    /* @keyframes scaleHover{
+        0%{
+            transform: scale(0);
+            opacity: 0;
+        }
+        
+        100%{
+            transform: scale(1);
+            opacity: 1;
+        }
+    } */
+    .slick-next {
+        right: 0;
+        
+    }
+    .slick-prev {
+        left:0;
+        right: 0;
+        
+        top:50%;
+        z-index: 999;
+        
+    }
+    /* ----------------- */
+    .khung{
+        height: 500px;
+        ;
+    }
+    .khungnho{
+        height: 100px;
+        width: 80px;
+    }
+    .map {
+        height: 500px;
+    }
+    
+    .map iframe {
+        width: 100%;
+    }
+    .continue {
+        
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .continue span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    
+    .continue span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    
+    .continue:hover span {
+        padding-right: 15px;
+    }
+    
+    .continue:hover span:after {
+        
+        opacity: 1;
+        right: -5px;
+    }
+    
